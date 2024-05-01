@@ -35,9 +35,9 @@ D)false because checks types equality as well
 E)false because true = 1. 
 F)true because Boolean(0) is the only false 
 
-15) == tries to convert operands to the same type to compare them. === checks whether they are actually of same type.
+15: == tries to convert operands to the same type to compare them. === checks whether they are actually of same type.
 
-17) It returns [2,4,6] bc we pass in the function doSomething as a parameter; it calls doSomething on each element of the array so just multiples each ele in the list by 2.
+17: It returns [2,4,6] bc we pass in the function doSomething as a parameter; it calls doSomething on each element of the array so just multiples each ele in the list by 2.
 
-19) 1 4 3 2 because 3 and 2 are not synch and are pushed to event queue.  done  
+19: 1 4 3 2 because 3 and 2 are not synch and are pushed to event queue.  done  
  
