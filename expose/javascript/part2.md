@@ -28,10 +28,12 @@ G) '3undefined' cause string concatenation for + rule
 H) NaN cause cannot convert undefined to number (and who would even do that?)
 
 14: 
-A)
-B)
-C)
-D)
-E)
-F)
-G)
+A)true cause '2' converted to 2
+B)false cause there is some parsing and it compares it to character '1' . if I compare to 2X and above its true. Basically it looks just on first character '1'
+C)true -- type coercion 2 becomes '2'
+D)false because checks types equality as well 
+E)false because true = 1. 
+F)true because Boolean(0) is the only false 
+
+15) == tries to convert operands to the same type to compare them. === checks whether they are actually of same type. 
+ 
