@@ -9,3 +9,29 @@
 9. returns null.
 10. Scope is same, value was not tried to be changed -- just returns 3.
 11. Returns 50,100,150. I guess constant array declaration in this case means that the discounted cannot be changed to some other array, but we can modify the original array it points too. So I guess it cannot change the memory adrress it points to, but its fine to populate the next after first bytes of memory address whetever this array is stored. 
+
+12:
+A) student.name 
+B) student["Grad Year"]
+C) student.greeting()
+D) student['Favorite Teacher'].name
+E) student.courseLoad[0]
+
+ 13:
+ A) '32' string + number = string connatinating for + rule 
+ B) '1' because for - convers string to number 
+ C) 3 because null treated as 0 in the case of numeric operation
+D) '3null' same concept as A 
+E) 4 because true is numerical 1 in pretty much most of languages due to computer logic 
+F) 0 cause both false and null treated as 0 in numeric operations
+G) '3undefined' cause string concatenation for + rule 
+H) NaN cause cannot convert undefined to number (and who would even do that?)
+
+14: 
+A)
+B)
+C)
+D)
+E)
+F)
+G)
